@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/_16sdp"
+    android:layout_marginRight="@dimen/_16sdp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Name :"
+                android:textColor="@color/bg_red"
+                android:textSize="18sp" />
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bg_blew"
+                android:hint="Enter name"
+                android:minHeight="45dp"
+                android:text="@{userProfileData.name}"
+                android:textColor="@color/hint_color"
+                android:textSize="14sp" />
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Email :"
+                android:textColor="@color/bg_red"
+                android:textSize="18sp" />
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bg_blew"
+                android:hint="Enter email"
+                android:inputType="textEmailAddress"
+                android:minHeight="45dp"
+                android:textColor="@color/hint_color"
+                android:textSize="14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="vertical">
+
+                <com.hyperlocal.app.ui.customview.RobotoBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Country Code :"
+                    android:textColor="@color/bg_red"
+                    android:textSize="18sp" />
+
+
+                <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                    android:id="@+id/tv_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/bg_blew"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:inputType="none"
+                    android:padding="@dimen/_8sdp"
+                    android:text="+91"
+                    android:textColor="@color/hint_color"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Phone Number:"
+                android:textColor="@color/bg_red"
+                android:textSize="18sp" />
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/tv_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:backgroundTint="@color/bg_blew"
+                android:clickable="false"
+                android:hint="Enter mobile number"
+                android:inputType="number"
+                android:maxLength="15"
+                android:padding="@dimen/_8sdp"
+                android:textColor="@color/hint_color"
+                android:textSize="14sp" />
+
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Address : "
+                android:textColor="@color/bg_red"
+                android:textSize="18sp" />
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bg_blew"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Enter address"
+                android:minHeight="45dp"
+                android:textColor="@color/hint_color"
+                android:textSize="14sp" />
+
+            <com.hyperlocal.app.ui.customview.ComfortRegularButton
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:background="@drawable/next_btn_shape"
+                android:elevation="@dimen/_2sdp"
+                android:gravity="center"
+                android:minHeight="@dimen/_40sdp"
+                android:minWidth="@dimen/_225sdp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+            <com.hyperlocal.app.ui.customview.ComfortRegularButton
+                android:id="@+id/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:background="@drawable/next_btn_shape"
+                android:elevation="@dimen/_2sdp"
+                android:gravity="center"
+                android:minHeight="@dimen/_40sdp"
+                android:minWidth="@dimen/_225sdp"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/progress_bar" />
+</FrameLayout>
+

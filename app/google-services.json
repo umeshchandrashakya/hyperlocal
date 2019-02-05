@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "706809873212",
+    "firebase_url": "https://hyperlocal-26ee1.firebaseio.com",
+    "project_id": "hyperlocal-26ee1",
+    "storage_bucket": "hyperlocal-26ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706809873212:android:c601a51074539afb",
+        "android_client_info": {
+          "package_name": "com.hyperlocal.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706809873212-fkj8c5lj7h7ho1vt8b91b9mbdsak08vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVwY5Pnd0dwTecE1SVa8_NCUZ3ioeagk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

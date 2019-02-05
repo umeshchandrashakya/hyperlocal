@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="bg_red">#FF5733</color>
+    <color name="bg_red_alpha">#FF5733</color>
+    <color name="bg_gray">#D8D8D8</color>
+    <color name="bg_blew">#007AFF</color>
+    <color name="hint_color">#737373</color>
+    <color name="light_gray">#F8F8F8</color>
+
+    <color name="text_dark_gray">#4A4A4A</color>
+    <color name="side_menu_bg">#F8F8F8</color>
+    <color name="black">#000</color>
+    <color name="alpha_bet">#9D00FF</color>
+
+    <array name="array_dot_active">
+        <item>@color/bg_red</item>
+        <item>@color/bg_red</item>
+        <item>@color/bg_red</item>
+        <item>@color/bg_red</item>
+        <item>@color/bg_red</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/side_menu_bg</item>
+        <item>@color/side_menu_bg</item>
+        <item>@color/side_menu_bg</item>
+        <item>@color/side_menu_bg</item>
+        <item>@color/side_menu_bg</item>
+    </array>
+</resources>

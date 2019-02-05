@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="user name"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/_120sdp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="-15dp"
+            android:layout_marginTop="9dp"
+            android:tint="#623973"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/msgr"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bubble_shape_left"
+            android:layout_gravity="top"
+            android:gravity="top|center"
+            android:textSize="12dp"
+            android:text="dklfklelf"
+            android:padding="@dimen/_8sdp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="4dp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:text="3 july 2017 8:90 pm"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+</LinearLayout>

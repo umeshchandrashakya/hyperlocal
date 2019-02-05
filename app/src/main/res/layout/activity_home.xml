@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool_bar" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:background="@color/side_menu_bg"
+        >
+
+        <LinearLayout
+            android:id="@+id/btn_small"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:orientation="vertical"
+            android:background="@drawable/small_banner">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:textColor="@color/text_dark_gray"
+                android:textSize="@dimen/_16sdp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ucs9821_gmail_com"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:textColor="@color/text_dark_gray"
+                android:textSize="@dimen/text_size_12sp"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_8sdp"
+            android:background="@color/bg_red"
+            />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/side_menu_bg">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.hyperlocal.app.ui.customview.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:gravity="center|left"
+            android:text="@string/thank_for_abuse"
+            android:textColor="@color/bg_red"
+            android:textSize="@dimen/_22sdp" />
+
+        <com.hyperlocal.app.ui.customview.RobotoRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:gravity="center|left"
+            android:text="@string/abuse_text_description"
+            android:textColor="@color/text_dark_gray"
+            android:textSize="@dimen/_16sdp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:background="@drawable/next_btn_shape"
+            android:elevation="@dimen/_2sdp"
+            android:gravity="center"
+            android:minWidth="@dimen/_170sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name" translatable="false">HyperLocal</string>
+    <string name="phone_empty_error_msg" translatable="false">Please enter phone number.</string>
+    <string name="country_code_empty" translatable="false">Please select Country.</string>
+    <string name="enter_valid_phone_number" translatable="false">Phone Number should be between 8 to 15 digits.</string>
+    <string name="enter_valid_otp">Please enter otp.</string>
+    <string name="please_enter_password">Password must contain minimum 8 characters and it must be alphanumeric.</string>
+    <string name="enter_name"> Name should be between 3 to 10 characters.</string>
+    <string name="enter_last_name">Please enter last name.</string>
+    <string name="enter_email"> Please enter  Email Id.</string>
+    <string name="please_enter_address"> Please enter the address.</string>
+    <string name="hyper_local">hyperlocal</string>
+    <string name="sharing_a_piece_of_cake">sharing is a piece of cake</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="sms_quota_full">SMS Quota exceeded. Please try after sometime</string>
+    <string name="phone_number_length_sort">Phone Number length too sort</string>
+    <string name="phone_number_length_long">Phone Number length too Long</string>
+    <string name="enter_phone_number">Enter phone Number</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="enter_correct_opt">Please enter correct Otp</string>
+    <string name="hyperlocal">hyperlocal</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="otp">OTP</string>
+    <string name="submit_otp">submit otp</string>
+    <string name="activity_fragment">Activity Fragment</string>
+    <string name="submit_phonenumber">submit phoneNumber</string>
+    <string name="umesh_chandra">Umesh Chandra</string>
+    <string name="ucs9821_gmail_com">ucs9821@gmail.com</string>
+    <string name="next">Next</string>
+    <string name="next1">Next</string>
+    <string name="skip">SkIP</string>
+    <string name="search">Search</string>
+    <string name="give_fragment">Give Fragment</string>
+    <string name="invite_your_neighbors_is_">Invite your neighbors is not free feature</string>
+    <string name="to_keep_the">To keep the light running we have to ask for a small fee of 1$</string>
+
+    <string name="enter_otp_here">Enter otp here</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="select_country_code">Select Country</string>
+    <string name="address">Address</string>
+    <string name="enter_address_here">Enter mailing address</string>
+    <string name="_2_30">2:30 pm</string>
+    <string name="milk">milk jfdjkejkwgi ew ihiog fewrioygewy igewio;g fuiewufio uewrioguioewru gfirewiogf iewru giewruigfu </string>
+    <string name="max_min">8/120</string>
+    <string name="about_first_text">Ask: if(faul language)flag for abuse if(word in toots)automatically set timer for 24 hours;</string>
+
+    <string name="about_tex">if(no user have app in range)show ask Dud page \n else set timer for five minutes;</string>
+    <string name="about_text_three">Warning: tapping anywhere on the popup files it over to change the duration.</string>
+    <string name="about_text_four">Abuse:Flag for abuse put user in \"under Review\" status and notifies the Administrator input tip is \"provide any detail\".</string>
+    <string name="about_text_six">About:open the browser to hyperlocal.al</string>
+    <string name="about_text_seven">Give:timer defaults for tow days</string>
+    <string name="about_text_eight">Invite:input tip \"provide date&amp;time\"</string>
+    <string name="you_ask_for">You ask for </string>
+    <string name="expires_in"> expires in</string>
+    <string name="thank_for_abuse">Thank you for reporting abuse</string>
+    <string name="abuse_text_description">We will investigate shortly and you should hear from us within 48 hours.</string>
+    <string name="done">Done</string>
+    <string name="plz_enter_text">Please enter text</string>
+    <string name="enter_character_between">"/"+"120"</string>
+    <string name="default_notification_channel_id">my_channel_01</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="block">Block</string>
+    <string name="please_enter_otp">Please enter otp.</string>
+    <string name="service_api_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnhFM0M+fALVRYzu6ubza5BRKm3//KiZXDX0lTYbEjKOWBBiAtUfwkRCDyHW0ovJybKeDG29ZBRLYB6ICpWOqYC8PrrcgUTxDg6VDldvJtfOEhCtN9WBPmhjovAhvALqV2G68BLHPCShHB70Tnrwa174QXZWl5tDHoY6rPhG2N+dT8snOaEi7Tw2RHQhmerrQXX66sMWaqdcqJHnhVsSocQi5NNZhx/Si0y5XV9SD2zkzWZt2+d9A1L4ghONti+bV/3yvOC70lv+Wnobskkr+DTi9dRjBT1SPpjOXkjgqkn+3ctdGoDwwaHYRdt0nkXCCrSE1GBqo0TZspSCyc1RJYQIDAQAB</string>
+    <string name="send">Send</string>
+    <string name="ask_neighbors_for">Ask neighbors for:</string>
+    <string name="give_away_your">Give away your:</string>
+    <string name="enter_email_here">Please enter  Email Id</string>
+    <string name="set_password">Set Password</string>
+    <string name="enter_password_here">Enter password</string>
+    <string name="ask_request_empty_msg">Please enter ask</string>
+    <string name="crash_toast_text">HyperLocal App Crashed.</string>
+</resources>

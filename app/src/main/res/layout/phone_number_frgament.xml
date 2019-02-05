@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_52sdp"
+        android:layout_marginRight="@dimen/_38sdp"
+        android:orientation="vertical">
+
+        <com.hyperlocal.app.ui.customview.RobotoMediumTextView
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textColor="@color/bg_red"
+            android:textSize="@dimen/_24sdp" />
+
+
+        <com.hyperlocal.app.ui.customview.RobotoMediumTextView
+            android:id="@+id/btn_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/btn_country_shape"
+            android:gravity="left|center"
+            android:paddingLeft="8dp"
+            android:text="@string/select_country_code"
+            android:textAllCaps="false"
+            android:minHeight="@dimen/_30sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/address_input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/bg_blew"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/edit_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/bg_blew"
+                android:hint="@string/enter_phone_number"
+                android:inputType="number"
+                android:maxLength="15"
+                android:minHeight="@dimen/_44sdp"
+                android:singleLine="true"
+                android:textColor="@color/hint_color" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

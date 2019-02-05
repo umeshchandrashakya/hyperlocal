@@ -1,0 +1,6 @@
+projectKey=Hyperlocal
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/Hyperlocal
+ceTaskId=AWLY1rpDWhC0basU3nfC
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWLY1rpDWhC0basU3nfC

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/_12sdp"
+    android:layout_marginBottom="@dimen/_12sdp"
+    android:layout_marginRight="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:id="@+id/linear_layout">
+
+
+
+
+    <include layout="@layout/tool_bar"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.hyperlocal.app.ui.customview.RobotoRegularTextView
+            android:id="@+id/tv_ask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="one of you neighbors is asking for if you have "
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:textSize="@dimen/_22sdp"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:textColor="@color/bg_red"
+            />
+
+        <com.hyperlocal.app.ui.customview.RobotoRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="if you say yes chat will open with your neighbors, sharing your first names "
+            android:textColor="@color/text_dark_gray"
+
+            />
+
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_45sdp"
+            android:background="@drawable/next_btn_shape"
+            android:elevation="@dimen/_2sdp"
+            android:gravity="center"
+            android:minWidth="@dimen/_180sdp"
+            android:text="Yes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/next_btn_shape"
+            android:elevation="@dimen/_2sdp"
+            android:gravity="center"
+            android:minWidth="@dimen/_180sdp"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+    <include layout="@layout/progress_bar"></include>
+</FrameLayout>

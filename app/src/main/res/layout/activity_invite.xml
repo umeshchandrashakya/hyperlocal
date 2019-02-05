@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <com.hyperlocal.app.ui.customview.ComfortRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Invite your neighbors"
+            android:textColor="@color/bg_red"
+            android:textSize="@dimen/_18sdp" />
+
+
+        <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+            android:id="@+id/edit_invite_neighbors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/bg_blew"
+            android:hint="Enter text here"
+            android:inputType="textEmailAddress"
+            android:minHeight="45dp"
+            android:singleLine="true"
+            android:textColor="@color/hint_color" />
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="right"
+               android:textSize="@dimen/_12sdp"
+               android:text="8/120"
+               android:textColor="@color/bg_gray"
+               />
+
+        <com.hyperlocal.app.ui.customview.ComfortRegularButton
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:background="@drawable/next_btn_shape"
+            android:elevation="@dimen/_2sdp"
+            android:gravity="center"
+            android:minWidth="@dimen/_170sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

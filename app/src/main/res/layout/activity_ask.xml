@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:background="@color/white"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <com.hyperlocal.app.ui.customview.ComfortBoldTextView
+                android:id="@+id/tv_ask_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="@string/ask_neighbors_for"
+                android:textColor="@color/bg_red"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <com.hyperlocal.app.ui.customview.RobotoBoldEditText
+                android:id="@+id/edit_invite_neighbors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:backgroundTint="@color/bg_blew"
+                android:hint="Enter text here"
+                android:maxLength="120"
+                android:minHeight="45dp"
+                android:textColor="@color/hint_color" />
+
+            <TextView
+                android:id="@+id/text_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="8/120"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <com.hyperlocal.app.ui.customview.ComfortRegularButton
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:background="@drawable/next_btn_shape"
+                android:elevation="@dimen/_2sdp"
+                android:gravity="center"
+                android:minHeight="@dimen/_35sdp"
+                android:minWidth="@dimen/_170sdp"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

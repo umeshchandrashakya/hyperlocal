@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_relayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:layout_below="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C9C9CE"
+           >
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_field_shape"
+            android:minHeight="@dimen/_30sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_22sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:singleLine="true"
+            android:hint="@string/search"
+            android:elevation="@dimen/_2sdp"
+            android:inputType="textCapSentences"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="@dimen/_8sdp"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/_8sdp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_layout"
+            android:background="@color/white"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:scrollbars="vertical" />
+
+        <com.hyperlocal.app.ui.registration.countrypicker.RecyclerViewFastScroller
+            android:layout_below="@+id/linear_layout"
+            android:id="@+id/fast_scroller"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/white"
+            android:layout_centerInParent="true"
+            android:minWidth="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_4sdp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:background="#F9FAF9"
+        android:orientation="vertical">
+
+        <com.hyperlocal.app.ui.customview.RobotoMediumTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Choose country"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+ </RelativeLayout>
